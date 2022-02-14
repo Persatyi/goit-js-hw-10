@@ -21,7 +21,6 @@ function inputValue(e) {
 
   fetchCountries(value)
     .then(response => {
-      console.log(response);
       const amountOfCountries = response.length;
 
       clearPage();
